@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "finaldestination",
+  "version": "1.0.0-mc26.1.2",
+  "name": "Final Destination Armor",
+  "description": "Adds the Final Destination Armor set with Pastel Sky color shifting and Ender Knight helmet.",
+  "authors": ["Roy"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.finaldestination.armor.FinalDestinationArmor"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~26.1.2"
+  }
+}
